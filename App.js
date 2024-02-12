@@ -1,11 +1,11 @@
 import React from 'react'
 import {View, StyleSheet} from 'react-native'
-import CurrentWeather from './src/components/CurrentWeather';
+// import CurrentWeather from './src/components/CurrentWeather';
 import UpcomingWeather from './src/components/UpcomingWeather';
 const App=()=>{
 return(
   <View style={styles.container}>
-    <CurrentWeather/>
+    {/* <CurrentWeather/> */}
     <UpcomingWeather/>
   </View>
 )
@@ -13,7 +13,8 @@ return(
 
 const styles=StyleSheet.create({
   container:{
-  flex:1
+  flex:1,
+  backgroundColor:'green'
   }
 
 })
